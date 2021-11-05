@@ -1,0 +1,65 @@
+.Container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 2rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+.Div1{
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+/* .Div2{
+    grid-area: 1 / 2 / 2 / 4;
+    display: flex;
+    justify-content: space-around;
+} */
+
+.Div2{
+    grid-area: 1 / 3 / 2 / 6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Link1 a {
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Link2 a {
+    font-size: 1.3rem;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.75);
+    transition: 0.4s ease;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.Link2 a:hover{
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.SocialIcons{
+    transition: 0.3s ease;
+    color: white;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.SocialIcons:hover {
+    background-color: #212d45;
+    transform: scale(1.2);
+    cursor: pointer;
+}
