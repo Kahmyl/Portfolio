@@ -15,11 +15,6 @@
     align-content: center;
 }
 
-/* .Div2{
-    grid-area: 1 / 2 / 2 / 4;
-    display: flex;
-    justify-content: space-around;
-} */
 
 .Div2{
     grid-area: 1 / 3 / 2 / 6;
